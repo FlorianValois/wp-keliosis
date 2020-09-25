@@ -14,7 +14,13 @@
 
 defined('ABSPATH') or die('Hey, you can\'t access this file, you silly human !');
 
-// Keliosis defines
+
+/**
+ * Define constants
+ *
+ * @since 0.1
+ * @author Florian Valois
+ */
 define( 'WP_KELIOSIS_VERSION',                  '0.3' );
 define( 'WP_KELIOSIS_NAME',                     'keliosis' );
 define( 'WP_KELIOSIS_SLUG',                     'wp-keliosis' );
@@ -32,8 +38,6 @@ define( 'WP_KELIOSIS_URL_ASSETS',               WP_KELIOSIS_URL . 'assets/' );
  *
  * @since 0.1
  * @author Florian Valois
- *
- * @return void
  */
 if ( !function_exists( 'keliosis_load_textdomain' ) ) {
   add_action( 'plugins_loaded', 'keliosis_load_textdomain' );
@@ -44,3 +48,5 @@ if ( !function_exists( 'keliosis_load_textdomain' ) ) {
     load_plugin_textdomain( 'keliosis', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
   }
 }
+
+require_once WP_KELIOSIS_PATH . 'settings.php';
