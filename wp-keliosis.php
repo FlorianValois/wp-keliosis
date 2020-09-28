@@ -28,6 +28,7 @@ define( 'WP_KELIOSIS_FILE',                     __FILE__ );
 define( 'WP_KELIOSIS_PATH',                     realpath( plugin_dir_path( WP_KELIOSIS_FILE ) ) . '/' );
 
 define( 'WP_KELIOSIS_PATH_INC',                 realpath( WP_KELIOSIS_PATH . 'inc/' ) . '/' );
+define( 'WP_KELIOSIS_PATH_INC_ADMIN',                 realpath( WP_KELIOSIS_PATH_INC . 'admin/' ) . '/' );
 define( 'WP_KELIOSIS_PATH_VIEWS',               realpath( WP_KELIOSIS_PATH . 'views/' ) . '/' );
 
 define( 'WP_KELIOSIS_URL',                      plugin_dir_url( WP_KELIOSIS_FILE ) );
@@ -39,9 +40,11 @@ define( 'WP_KELIOSIS_URL_ASSETS',               WP_KELIOSIS_URL . 'assets/' );
  * @since 0.1
  * @author Florian Valois
  */
-if ( !function_exists( 'keliosis_load_textdomain' ) ) {
+if ( !function_exists( 'keliosis_load_textdomain' ) ) 
+{
   add_action( 'plugins_loaded', 'keliosis_load_textdomain' );
-  function keliosis_load_textdomain() {
+  function keliosis_load_textdomain() 
+  {
     $locale = get_locale();
     $locale = apply_filters( 'plugin_locale', $locale, 'keliosis' );
     load_textdomain( 'keliosis', WP_LANG_DIR . '/plugins/wp-keliosis-' . $locale . '.mo' );
