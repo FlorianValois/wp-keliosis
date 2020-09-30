@@ -23,8 +23,9 @@ gulp.task('style', function () {
 gulp.task('script', function() {
 	return streamqueue({ objectMode: true },
       gulp.src([
+        'node_modules/jquery/dist/jquery.js',
         'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
-        'assets/js/*.js'
+        'assets/js/**/*.js'
       ]),
 	)
 //	.pipe(uglify())
