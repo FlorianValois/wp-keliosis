@@ -10,9 +10,9 @@ defined('ABSPATH') or die('Hey, you can\'t access this file, you silly human !')
  *
  * @return void
  */
-if ( !function_exists( 'keolis_dashboard' ) ) 
+if ( !function_exists( 'keliosis_dashboard' ) ) 
 {
-  function keolis_dashboard()
+  function keliosis_dashboard()
   {        
   ?>
   <div class="wrap">
