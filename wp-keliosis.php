@@ -28,8 +28,10 @@ define( 'WP_KELIOSIS_FILE',                     __FILE__ );
 define( 'WP_KELIOSIS_PATH',                     realpath( plugin_dir_path( WP_KELIOSIS_FILE ) ) . '/' );
 
 define( 'WP_KELIOSIS_PATH_INC',                 realpath( WP_KELIOSIS_PATH . 'inc/' ) . '/' );
-define( 'WP_KELIOSIS_PATH_INC_ADMIN',                 realpath( WP_KELIOSIS_PATH_INC . 'admin/' ) . '/' );
+define( 'WP_KELIOSIS_PATH_INC_ADMIN',           realpath( WP_KELIOSIS_PATH_INC . 'admin/' ) . '/' );
+define( 'WP_KELIOSIS_PATH_INC_ADMIN_UI',        realpath( WP_KELIOSIS_PATH_INC_ADMIN . 'ui/' ) . '/' );
 define( 'WP_KELIOSIS_PATH_VIEWS',               realpath( WP_KELIOSIS_PATH . 'views/' ) . '/' );
+define( 'WP_KELIOSIS_PATH_CHANGELOG',           realpath( WP_KELIOSIS_PATH . 'changelog/' ) . '/' );
 
 define( 'WP_KELIOSIS_URL',                      plugin_dir_url( WP_KELIOSIS_FILE ) );
 define( 'WP_KELIOSIS_URL_ASSETS',               WP_KELIOSIS_URL . 'assets/' );
