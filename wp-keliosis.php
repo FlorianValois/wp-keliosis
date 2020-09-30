@@ -51,7 +51,7 @@ if ( !function_exists( 'wpk__load_textdomain' ) )
     $locale = get_locale();
     $locale = apply_filters( 'plugin_locale', $locale, 'keliosis' );
     load_textdomain( 'keliosis', WP_LANG_DIR . '/plugins/wp-keliosis-' . $locale . '.mo' );
-    load_plugin_textdomain( 'keliosis', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
+    load_plugin_textdomain( 'keliosis', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
   }
 }
 

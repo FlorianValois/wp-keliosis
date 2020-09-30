@@ -16,7 +16,7 @@ if ( !function_exists( 'wpk__dashboard' ) )
   {        
   
   wpk__title_page( __( 'Dashboard', 'keliosis' ) );
-?>
+  ?>
   <div class="wrap">
   
   </div>
