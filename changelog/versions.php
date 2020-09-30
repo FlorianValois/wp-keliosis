@@ -72,12 +72,12 @@ $versions = array(
         'Added Bootstrap v 4.4.1',
         'Added Font Awesome Free v 5.12.0',
       ),
-      'change' => array(
+      'changed' => array(
         'Change name folder views in sections',
         'Reorganize files in views folder',
         'Updated .pot file'
       ),
-      'remove' => array(
+      'removed' => array(
         'Removed settings in options table to place data in specific table'
       )
     )
