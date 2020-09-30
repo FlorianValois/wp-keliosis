@@ -8,12 +8,12 @@ defined('ABSPATH') or die('Hey, you can\'t access this file, you silly human !')
  * @since 0.1
  * @author Florian Valois
  */
-if ( !function_exists( 'keliosis_link_dashboard' ) ) 
+if ( !function_exists( 'wpk__link_dashboard' ) ) 
 {
-  add_action('admin_menu','keliosis_link_dashboard');
-  function keliosis_link_dashboard()
+  add_action('admin_menu','wpk__link_dashboard');
+  function wpk__link_dashboard()
   {
-    $keliosis_admin_page = array(
+    $wpk__admin_page = array(
       
       // Main plugin page
       add_menu_page(
@@ -21,7 +21,7 @@ if ( !function_exists( 'keliosis_link_dashboard' ) )
         __( 'WP Keliosis', 'keliosis' ), 
         'manage_options', 
         'wp_keliosis', 
-        'keliosis_dashboard', 
+        'wpk__dashboard', 
         'dashicons-admin-plugins',  
         99 
       ),
@@ -33,7 +33,7 @@ if ( !function_exists( 'keliosis_link_dashboard' ) )
         __( 'Dashboard', 'keliosis' ),
         'manage_options', 
         'wp_keliosis',
-        'keliosis_dashboard'
+        'wpk__dashboard'
       ),
 
       // Images
@@ -42,8 +42,8 @@ if ( !function_exists( 'keliosis_link_dashboard' ) )
         __( 'Images', 'keliosis' ), 
         __( 'Images', 'keliosis' ),
         'manage_options', 
-        'wp_keliosis_images',
-        'keliosis_images'
+        'wpk_images',
+        'wpk__images'
       ),
 
       // Changelog
@@ -52,15 +52,15 @@ if ( !function_exists( 'keliosis_link_dashboard' ) )
         __( 'Changelog', 'keliosis' ), 
         __( 'Changelog', 'keliosis' ),
         'manage_options',
-        'wp_keliosis_changelog',
-        'keliosis_changelog'
+        'wpk_changelog',
+        'wpk__changelog'
       )
     );
     
 
     // Load CSS and JS only on plugin page
-    foreach($keliosis_admin_page as $key){ 
-      add_action('load-'.$key, 'keliosis_load_enqueue_style_script');
+    foreach($wpk__admin_page as $key){ 
+      add_action('load-'.$key, 'wpk__load_enqueue_style_script');
     }
     
   }

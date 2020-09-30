@@ -30,6 +30,7 @@ define( 'WP_KELIOSIS_PATH',                     realpath( plugin_dir_path( WP_KE
 define( 'WP_KELIOSIS_PATH_INC',                 realpath( WP_KELIOSIS_PATH . 'inc/' ) . '/' );
 define( 'WP_KELIOSIS_PATH_INC_ADMIN',           realpath( WP_KELIOSIS_PATH_INC . 'admin/' ) . '/' );
 define( 'WP_KELIOSIS_PATH_INC_ADMIN_UI',        realpath( WP_KELIOSIS_PATH_INC_ADMIN . 'ui/' ) . '/' );
+define( 'WP_KELIOSIS_PATH_INC_TEMPLATE',        realpath( WP_KELIOSIS_PATH_INC . 'template/' ) . '/' );
 define( 'WP_KELIOSIS_PATH_VIEWS',               realpath( WP_KELIOSIS_PATH . 'views/' ) . '/' );
 define( 'WP_KELIOSIS_PATH_CHANGELOG',           realpath( WP_KELIOSIS_PATH . 'changelog/' ) . '/' );
 
@@ -42,10 +43,10 @@ define( 'WP_KELIOSIS_URL_ASSETS',               WP_KELIOSIS_URL . 'assets/' );
  * @since 0.1
  * @author Florian Valois
  */
-if ( !function_exists( 'keliosis_load_textdomain' ) ) 
+if ( !function_exists( 'wpk__load_textdomain' ) ) 
 {
-  add_action( 'plugins_loaded', 'keliosis_load_textdomain' );
-  function keliosis_load_textdomain() 
+  add_action( 'plugins_loaded', 'wpk__load_textdomain' );
+  function wpk__load_textdomain() 
   {
     $locale = get_locale();
     $locale = apply_filters( 'plugin_locale', $locale, 'keliosis' );
