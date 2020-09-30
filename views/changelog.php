@@ -10,18 +10,18 @@ defined('ABSPATH') or die('Hey, you can\'t access this file, you silly human !')
  *
  * @return void
  */
-if ( !function_exists( 'keliosis_changelog' ) ) 
+if ( !function_exists( 'wpk__changelog' ) ) 
 {
   
-  function keliosis_changelog()
+  function wpk__changelog()
   {    
     
     require WP_KELIOSIS_PATH_CHANGELOG . 'versions.php';
     
-    ?>
-
+    echo wpk__title_page( __( 'Changelog', 'keliosis' ) ); 
+?>
+  
   <div class="wrap">
-    <h1><?php echo __( 'Changelog', 'keliosis' ); ?></h1>
     
     <?php
     foreach( $versions as $key )
@@ -100,7 +100,7 @@ if ( !function_exists( 'keliosis_changelog' ) )
       
         </ul>
       </div>
-		</div>
+    </div>
       
       <?php
     }

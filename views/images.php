@@ -10,13 +10,16 @@ defined('ABSPATH') or die('Hey, you can\'t access this file, you silly human !')
  *
  * @return void
  */
-if ( !function_exists( 'keliosis_images' ) ) 
+if ( !function_exists( 'wpk__images' ) ) 
 {
-  function keliosis_images()
-  {        
-  ?>
+  function wpk__images()
+  {  
+    
+  echo wpk__title_page( __( 'Images', 'keliosis' ) ); 
+?>
+  
   <div class="wrap">
-    <h1><?php echo __( 'Images', 'keliosis' ); ?></h1>
+  
   </div>
   <?php
   }
