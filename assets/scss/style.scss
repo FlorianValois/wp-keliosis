@@ -3,6 +3,10 @@
 // Options
 @import 'options/var';
 @import 'options/body';
+@import 'options/wp';
 
 // Page
 @import 'page/changelog';
+
+// Template
+@import 'template/title';
