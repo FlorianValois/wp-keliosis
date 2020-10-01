@@ -22,7 +22,7 @@ if ( !function_exists( 'wpk__init' ) ) {
     
     // Views
     require WP_KELIOSIS_PATH_VIEWS . 'dashboard.php';
-    require WP_KELIOSIS_PATH_VIEWS . 'images.php';
+    require WP_KELIOSIS_PATH_VIEWS . 'medias.php';
     require WP_KELIOSIS_PATH_VIEWS . 'changelog.php';
 
   }

@@ -14,6 +14,8 @@
   &:hover,
   &:focus {
     color: $white;
+    box-shadow: none;
+    outline: inherit;
     text-decoration: none;
     transition: all ease .3s;
   }

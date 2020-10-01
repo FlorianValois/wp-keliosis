@@ -39,11 +39,11 @@ if ( !function_exists( 'wpk__link_dashboard' ) )
       // Images
       add_submenu_page( 
         'wp_keliosis', 
-        __( 'Images', 'keliosis' ), 
-        __( 'Images', 'keliosis' ),
+        __( 'Medias', 'keliosis' ), 
+        __( 'Medias', 'keliosis' ),
         'manage_options', 
-        'wpk_images',
-        'wpk__images'
+        'wpk_medias',
+        'wpk__medias'
       ),
 
       // Changelog
