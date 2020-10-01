@@ -15,11 +15,11 @@ $versions = array(
     'date' => '28th September, 2020',
     'details' => array(
       'changed' => array(
-        'Updated all design and all page of plugin',
-        'Change Font Awesome Free v 5.12.0 library to Font Awesome Free v 5.14.0 CDN'
+        'Change all design and all page of plugin',
+        'Change Font Awesome Free v5.12.0 library to Font Awesome Free v5.15.0 CDN',
+        'Change Bootstrap v4.4.1 to v4.5.2 - use only grid',
       ),
       'removed' => array(
-        'Removed Bootstrap v 4.4.1',
         'Remove function to create a dedicate table in database for plugin'
       )
     )
