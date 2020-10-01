@@ -1,5 +1,7 @@
 // Style
 
+@import '../../node_modules/bootstrap/scss/bootstrap-grid';
+
 // Options
 @import 'options/var';
 @import 'options/body';
@@ -10,3 +12,5 @@
 
 // Template
 @import 'template/title';
+@import 'template/card';
+@import 'template/cta';

@@ -1,10 +1,16 @@
 .wpk__title_page {
-  background: #39332b;
-  margin-bottom: 50px;
+  background: $primary1;
+  background: linear-gradient(90deg, $primary1 0%, $primary2 100%);
+  margin-bottom: 30px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
 
   h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
     color: $white;
-    line-height: 200px;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 50px;
   }
 }
