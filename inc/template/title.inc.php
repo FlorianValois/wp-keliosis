@@ -15,7 +15,7 @@ function wpk__title_page($title)
 {
   ?>
 	<div class="wpk__title_page">
-      <h1><?php echo $title; ?></h1>
+      <h1><?php echo $title; ?> - WP Keliosis</h1>
 	</div>
 	<?php
 }
