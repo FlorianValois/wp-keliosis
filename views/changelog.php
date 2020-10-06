@@ -18,7 +18,7 @@ if ( !function_exists( 'wpk__changelog' ) )
     
     require WP_KELIOSIS_PATH_CHANGELOG . 'versions.php';
     
-    echo wpk__title_page( __( 'Changelog', 'keliosis' ) ); 
+    echo wpk__title_page( __( 'Changelog', 'keliosis' ) );
 ?>
   
   <div class="wrap">

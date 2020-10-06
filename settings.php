@@ -11,14 +11,22 @@ if ( !function_exists( 'wpk__init' ) ) {
   add_action( 'after_setup_theme', 'wpk__init' );
   function wpk__init() {
     
-    // Admin menu
+    // Admin
     require WP_KELIOSIS_PATH_INC_ADMIN . 'admin_menu.inc.php';
+    require WP_KELIOSIS_PATH_INC_ADMIN . 'options.inc.php';
+    
+    // Data
+    require WP_KELIOSIS_PATH_INC_DATA . 'save.inc.php';
     
     // Admin UI
     require WP_KELIOSIS_PATH_INC_ADMIN_UI . 'enqueue.inc.php';
     
     // Template
     require WP_KELIOSIS_PATH_INC_TEMPLATE . 'title.inc.php';
+    
+    // Functions
+    /* Medias */
+    require WP_KELIOSIS_PATH_INC_FUNC . 'medias/rewrite_filename.inc.php';
     
     // Views
     require WP_KELIOSIS_PATH_VIEWS . 'dashboard.php';
