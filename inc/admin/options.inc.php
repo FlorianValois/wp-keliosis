@@ -17,5 +17,5 @@ function wpk_options($name){
   $table_name = $wpdb->prefix . 'keliosis';
   $results = $wpdb->get_results( "SELECT meta_value FROM {$table_name} WHERE meta_key = '$name'", ARRAY_A )[0]['meta_value'];
   
-  return intval( $results );
+  return $results;
 }

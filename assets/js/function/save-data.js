@@ -23,7 +23,6 @@ $('.wpk-form').on('submit', function (event) {
     url: wpk_ajax.ajaxurl,
     dataType: 'json',
     success: function (response) {
-//      console.log(response);
       if (response.update === true) {
         wpkModal({
           type: 'success',

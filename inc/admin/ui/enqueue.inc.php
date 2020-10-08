@@ -19,7 +19,7 @@ if ( !function_exists( 'wpk__enqueue_style_script' ) ) {
     wp_localize_script( 'wp-keliosis', 'wpk_ajax', $translations );
     
     // Google Fonts
-    wp_enqueue_style( 'wp-keliosis-google-font', 'https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap', null, '');
+    wp_enqueue_style( 'wp-keliosis-google-font', 'https://fonts.googleapis.com/css?family=Poppins:400,400i,600,600i,700,700i,800,800i,900,900i&display=swap', null, '');
     
     // FontAwesome
     wp_enqueue_style( 'wp-keliosis-font-awesome', 'https://use.fontawesome.com/releases/v5.15.0/css/all.css', null, null );

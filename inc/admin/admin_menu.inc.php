@@ -36,6 +36,16 @@ if ( !function_exists( 'wpk__link_dashboard' ) )
         'wpk__dashboard'
       ),
 
+      // Email
+      add_submenu_page( 
+        'wp_keliosis', 
+        __( 'Email', 'keliosis' ), 
+        __( 'Email', 'keliosis' ),
+        'manage_options', 
+        'wpk_email',
+        'wpk__email'
+      ),
+
       // Images
       add_submenu_page( 
         'wp_keliosis', 
