@@ -27,7 +27,7 @@ if ( !function_exists( 'wpk__email' ) )
      
       <div class="col-xl-6">
         <div class="wpk-card">
-          <h2 class="title"><?php echo __('Email default notification', 'keliosis'); ?></h2>
+          <h2 class="title"><?php echo __('Default information for email', 'keliosis'); ?></h2>
           <div class="content">
             <div class="input-group">
               <div>

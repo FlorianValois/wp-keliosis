@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: WP Keliosis\n"
-"POT-Creation-Date: 2020-09-30 16:05+0200\n"
+"POT-Creation-Date: 2020-10-13 15:23+0200\n"
 "PO-Revision-Date: 2020-09-25 12:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -35,13 +35,44 @@ msgid "Dashboard"
 msgstr ""
 
 #: inc/admin/admin_menu.inc.php:42 inc/admin/admin_menu.inc.php:43
-#: views/images.php:18
-msgid "Images"
+#: views/email.php:18
+msgid "Email"
 msgstr ""
 
 #: inc/admin/admin_menu.inc.php:52 inc/admin/admin_menu.inc.php:53
+#: views/medias.php:18
+msgid "Medias"
+msgstr ""
+
+#: inc/admin/admin_menu.inc.php:62 inc/admin/admin_menu.inc.php:63
 #: views/changelog.php:21
 msgid "Changelog"
+msgstr ""
+
+#: inc/admin/ui/translations.inc.php:19
+msgid "Saved changes"
+msgstr ""
+
+#: inc/admin/ui/translations.inc.php:20
+msgid "Your changes have been successfully saved !"
+msgstr ""
+
+#: inc/admin/ui/translations.inc.php:21
+msgid "Warning"
+msgstr ""
+
+#: inc/admin/ui/translations.inc.php:22
+msgid "No change detected. Update canceled."
+msgstr ""
+
+#: inc/admin/ui/translations.inc.php:23
+msgid "Error"
+msgstr ""
+
+#: inc/admin/ui/translations.inc.php:24
+msgid ""
+"The update could not be completed correctly. If the problem persists, "
+"contact the developer."
 msgstr ""
 
 #: views/changelog.php:36
@@ -70,6 +101,95 @@ msgstr ""
 
 #: views/changelog.php:73
 msgid "Security"
+msgstr ""
+
+#: views/dashboard.php:26
+msgid "Welcome to WP Keliosis !"
+msgstr ""
+
+#: views/dashboard.php:28
+msgid "This plugin was created for only purpose : Make life easier."
+msgstr ""
+
+#: views/dashboard.php:29
+msgid ""
+"Thanks to a whole panel of options, distributed among differents sections "
+"of WordPress environment, you will be able to modify default options to "
+"give more power and personnalisation to your WordPress site."
+msgstr ""
+
+#: views/dashboard.php:30
+msgid ""
+"All options are available in the menu on the left and their explanations "
+"have been added to each of them."
+msgstr ""
+
+#: views/dashboard.php:37
+msgid "is now available !"
+msgstr ""
+
+#: views/dashboard.php:39
+msgid "Check changelog section to know more."
+msgstr ""
+
+#: views/dashboard.php:40
+msgid "Read changelog"
+msgstr ""
+
+#: views/dashboard.php:45
+msgid "Support"
+msgstr ""
+
+#: views/dashboard.php:47
+msgid "Need help or any suggestions to improve the plugin ?"
+msgstr ""
+
+#: views/dashboard.php:48
+msgid "Ask your questions/suggestions on our forum."
+msgstr ""
+
+#: views/dashboard.php:49
+msgid "Go to support"
+msgstr ""
+
+#: views/email.php:30
+msgid "Default information for email"
+msgstr ""
+
+#: views/email.php:35
+msgid "Author name"
+msgstr ""
+
+#: views/email.php:41
+msgid "Change default author 'WordPress' by your custom author name."
+msgstr ""
+
+#: views/email.php:47
+msgid "Author email"
+msgstr ""
+
+#: views/email.php:52
+msgid "Change default email 'wordpress@...' by your custom email."
+msgstr ""
+
+#: views/email.php:61 views/medias.php:48
+msgid "Save changes"
+msgstr ""
+
+#: views/medias.php:30
+msgid "Rewrite filename"
+msgstr ""
+
+#: views/medias.php:35
+msgid "Active this option to rewrite filename during upload."
+msgstr ""
+
+#: views/medias.php:38
+msgid "Enabling this option to turn filename into a web optimized filename."
+msgstr ""
+
+#: views/medias.php:39
+msgid "Example : F@_pf42çfèdg.JPG in f-pf42cfedg.jpg"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
