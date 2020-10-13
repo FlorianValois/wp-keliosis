@@ -27,6 +27,7 @@ if ( !function_exists( 'wpk__init' ) ) {
     // Functions
     /* Medias */
     require WP_KELIOSIS_PATH_INC_FUNC . 'medias/rewrite_filename.inc.php';
+    require WP_KELIOSIS_PATH_INC_FUNC . 'email/default_information.inc.php';
     
     // Views
     require WP_KELIOSIS_PATH_VIEWS . 'dashboard.php';
