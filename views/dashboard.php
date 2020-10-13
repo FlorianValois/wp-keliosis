@@ -30,14 +30,13 @@ if ( !function_exists( 'wpk__dashboard' ) )
           <p><?php _e('All options are available in the menu on the left and their explanations have been added to each of them.', 'keliosis'); ?></p>
         </div>
       </div>
-      
     </div>
     <div class="col-lg-4">
       <div class="wpk-card">
         <h2 class="title">WP Keliosis <?php echo WP_KELIOSIS_VERSION . ' ' . __('is now available !', 'keliosis'); ?></h2>
         <div class="content">
           <p><?php _e('Check changelog section to know more.', 'keliosis'); ?></p>
-          <a href="/wp-admin/admin.php?page=wpk_changelog" class="cta cta-primary cta-anchor"><i class="fas fa-code-branch"></i> <?php _e('Read changelog', 'keliosis'); ?></a>
+          <a href="<?php echo admin_url('admin.php?page=wpk_changelog'); ?>" class="cta cta-primary cta-anchor"><i class="fas fa-code-branch"></i> <?php _e('Read changelog', 'keliosis'); ?></a>
         </div>
       </div>
 
