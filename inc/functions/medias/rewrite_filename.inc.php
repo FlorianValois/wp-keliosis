@@ -10,7 +10,7 @@ if (!defined('ABSPATH')) {
  * @author Florian Valois
  */
 
-( wpk_options('medias__rewrite_filename') === 1 ) ? add_filter('sanitize_file_name', 'wpk__medias__rewrite_filename', 10) : '';
+( wpk_options('medias__rewrite_filename') ) ? add_filter('sanitize_file_name', 'wpk__medias__rewrite_filename', 10) : '';
 
 if ( !function_exists( 'wpk__medias__rewrite_filename' ) ) {
   function wpk__medias__rewrite_filename($filename){
