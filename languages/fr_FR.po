@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Keliosis\n"
-"POT-Creation-Date: 2020-10-13 15:22+0200\n"
-"PO-Revision-Date: 2020-10-13 15:23+0200\n"
+"POT-Creation-Date: 2020-11-20 10:36+0100\n"
+"PO-Revision-Date: 2020-11-20 10:36+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: wp-keliosis.php\n"
@@ -132,57 +132,57 @@ msgstr ""
 "Toutes les options sont disponibles dans le menu à gauche et leurs "
 "explications ont été ajoutées à chacune d'entre elles."
 
-#: views/dashboard.php:37
+#: views/dashboard.php:36
 msgid "is now available !"
 msgstr "est maintenant disponible !"
 
-#: views/dashboard.php:39
+#: views/dashboard.php:38
 msgid "Check changelog section to know more."
 msgstr "Consultez la section changelog pour en savoir plus."
 
-#: views/dashboard.php:40
+#: views/dashboard.php:39
 msgid "Read changelog"
 msgstr "Lire changelog"
 
-#: views/dashboard.php:45
+#: views/dashboard.php:44
 msgid "Support"
 msgstr "Support"
 
-#: views/dashboard.php:47
+#: views/dashboard.php:46
 msgid "Need help or any suggestions to improve the plugin ?"
 msgstr "Besoin d'aide ou de suggestions pour améliorer le plugin ?"
 
-#: views/dashboard.php:48
+#: views/dashboard.php:47
 msgid "Ask your questions/suggestions on our forum."
 msgstr "Posez vos questions/suggestions sur notre forum."
 
-#: views/dashboard.php:49
+#: views/dashboard.php:48
 msgid "Go to support"
 msgstr "Aller sur le support"
 
-#: views/email.php:30
+#: views/email.php:32
 msgid "Default information for email"
 msgstr "Informations paour email par défaut"
 
-#: views/email.php:35
+#: views/email.php:37
 msgid "Author name"
 msgstr "Nom de l’auteur"
 
-#: views/email.php:41
+#: views/email.php:43
 msgid "Change default author 'WordPress' by your custom author name."
 msgstr ""
 "Modifiez l’auteur par défaut 'WordPress' par votre nom d’auteur personnalisé."
 
-#: views/email.php:47
+#: views/email.php:49
 msgid "Author email"
 msgstr "Email de l'auteur"
 
-#: views/email.php:52
+#: views/email.php:54
 msgid "Change default email 'wordpress@...' by your custom email."
 msgstr ""
 "Modifier l'e-mail par défaut 'wordpress@...' par votre e-mail personnalisé."
 
-#: views/email.php:61 views/medias.php:48
+#: views/email.php:63 views/medias.php:48
 msgid "Save changes"
 msgstr "Sauvegarder les modifications"
 

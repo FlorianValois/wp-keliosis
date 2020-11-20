@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: WP Keliosis\n"
-"POT-Creation-Date: 2020-10-13 15:23+0200\n"
+"POT-Creation-Date: 2020-11-20 10:36+0100\n"
 "PO-Revision-Date: 2020-09-25 12:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: wp-keliosis.php\n"
@@ -124,55 +124,55 @@ msgid ""
 "have been added to each of them."
 msgstr ""
 
-#: views/dashboard.php:37
+#: views/dashboard.php:36
 msgid "is now available !"
 msgstr ""
 
-#: views/dashboard.php:39
+#: views/dashboard.php:38
 msgid "Check changelog section to know more."
 msgstr ""
 
-#: views/dashboard.php:40
+#: views/dashboard.php:39
 msgid "Read changelog"
 msgstr ""
 
-#: views/dashboard.php:45
+#: views/dashboard.php:44
 msgid "Support"
 msgstr ""
 
-#: views/dashboard.php:47
+#: views/dashboard.php:46
 msgid "Need help or any suggestions to improve the plugin ?"
 msgstr ""
 
-#: views/dashboard.php:48
+#: views/dashboard.php:47
 msgid "Ask your questions/suggestions on our forum."
 msgstr ""
 
-#: views/dashboard.php:49
+#: views/dashboard.php:48
 msgid "Go to support"
 msgstr ""
 
-#: views/email.php:30
+#: views/email.php:32
 msgid "Default information for email"
 msgstr ""
 
-#: views/email.php:35
+#: views/email.php:37
 msgid "Author name"
 msgstr ""
 
-#: views/email.php:41
+#: views/email.php:43
 msgid "Change default author 'WordPress' by your custom author name."
 msgstr ""
 
-#: views/email.php:47
+#: views/email.php:49
 msgid "Author email"
 msgstr ""
 
-#: views/email.php:52
+#: views/email.php:54
 msgid "Change default email 'wordpress@...' by your custom email."
 msgstr ""
 
-#: views/email.php:61 views/medias.php:48
+#: views/email.php:63 views/medias.php:48
 msgid "Save changes"
 msgstr ""
 
