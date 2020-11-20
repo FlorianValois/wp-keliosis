@@ -16,8 +16,6 @@ if ( !function_exists( 'wpk__email' ) )
   {  
     
   echo wpk__title_page( __( 'Email', 'keliosis' ) ); 
-
-    wp_mail('contact@florian-valois.com', 'test', 'message de test', array('Content-Type: text/html; charset=UTF-8'));
       
 ?>
   
