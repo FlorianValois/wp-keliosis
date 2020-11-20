@@ -3,7 +3,7 @@
  * Plugin Name: WP Keliosis
  * Plugin URI: https://wordpress.org/plugins/wp-keliosis/
  * Description: The best all-in-one plugin to customize default options of WordPress.
- * Version: 0.3
+ * Version: 0.3.1
  * Author: Florian Valois
  * Author URI: https://florian-valois.com
  * Licence: GPLv2 or later
@@ -21,7 +21,7 @@ defined('ABSPATH') or die('Hey, you can\'t access this file, you silly human !')
  * @since 0.1
  * @author Florian Valois
  */
-define( 'WP_KELIOSIS_VERSION',                  '0.3' );
+define( 'WP_KELIOSIS_VERSION',                  '0.3.1' );
 define( 'WP_KELIOSIS_NAME',                     'keliosis' );
 define( 'WP_KELIOSIS_SLUG',                     'wp-keliosis' );
 define( 'WP_KELIOSIS_FILE',                     __FILE__ );

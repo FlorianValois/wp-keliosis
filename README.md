@@ -2,8 +2,8 @@
 Contributors: florianvalois
 Tags: wordpress, rename, image, upload
 Requires at least: 5.2
-Tested up to: 5.3.2
-Stable tag: 0.2.3
+Tested up to: 5.5.3
+Stable tag: 0.3.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,19 +25,18 @@ WP Keliosis is an all-in-one plugin that will boost WordPress default options wi
 1. Rename the two files by adding at the beginning `wp-keliosis`.
 1. Copy and paste the two .po and .mo files in the following directory: `wp-content/languages/plugins`.
 
-== Screenshots ==
-
-1. WP Keliosis plugin dashboard.
-
 == Changelog ==
 
+= 0.3.1 =
+*Release date: 20th November, 2020*
+* Fixe: Problem on merge branch in SVN
+
 = 0.3 =
-*Release date: 13th October, 2020*
+*Release date: 20th November, 2020*
 
 * Update: Change all design and all page of plugin
 * Update: Change Font Awesome Free v5.12.0 library to Font Awesome Free v5.15.0 CDN
 * Update: Change Bootstrap v4.4.1 to v4.5.2 - use only grid
-* Remove: function to create a dedicate table in database for plugin
 
 = 0.2.3 =
 *Release date: 13th January, 2020*

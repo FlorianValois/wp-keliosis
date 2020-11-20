@@ -11,6 +11,15 @@ defined('ABSPATH') or die('Hey, you can\'t access this file, you silly human !')
 
 $versions = array(
   array(
+    'version' => '0.3.1',
+    'date' => '20th November, 2020',
+    'details' => array(
+      'fixed' => array(
+        'Problem on merge branch in SVN'
+      )
+    )
+  ),
+  array(
     'version' => '0.3',
     'date' => '20th November, 2020',
     'details' => array(
