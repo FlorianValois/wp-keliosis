@@ -12,15 +12,12 @@ defined('ABSPATH') or die('Hey, you can\'t access this file, you silly human !')
 $versions = array(
   array(
     'version' => '0.3',
-    'date' => '28th September, 2020',
+    'date' => '20th November, 2020',
     'details' => array(
       'changed' => array(
         'Change all design and all page of plugin',
         'Change Font Awesome Free v5.12.0 library to Font Awesome Free v5.15.0 CDN',
-        'Change Bootstrap v4.4.1 to v4.5.2 - use only grid',
-      ),
-      'removed' => array(
-        'Remove function to create a dedicate table in database for plugin'
+        'Change Bootstrap v4.4.1 to v4.5.2 - use only grid'
       )
     )
   ),
